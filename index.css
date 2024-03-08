@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #111827; 
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+.container {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.from-to-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 10px;
+}
+
+button {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 130%;
+    background-color: #28A9F1; 
+    color: #04131C;
+}
+
+textarea, input, button {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+    margin-bottom: 4px; 
+}
+
+textarea, input {
+    background-color: #444059; 
+    border: none;
+    color: #8F8F8F;
+}
+
+input {
+    text-align: center;
+    max-width: 125px;
+} 
+
+img {
+    padding-top: 50px; 
+    width: 90px;
+    margin: 0 auto;
+}
+
+ul {
+    margin-top: 0; 
+    list-style-type: none;
+    padding: 0;
+    text-align: start;
+    color: #1B1924;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+ul li {
+    background-color: #FFFDF8;
+    padding: 1px 20px;
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+.from-likes {
+    display: flex;
+    justify-content: space-between
+}
+
+.message{
+    font-weight: normal;
+}
